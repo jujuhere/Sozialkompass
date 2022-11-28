@@ -1,0 +1,13 @@
+import { createTheme } from '@mui/material';
+import {red} from '@mui/material/colors';
+const theme = createTheme({
+  palette: {
+    background: {
+      default: '#D3E0F9',
+      paper: '#D3E0F9',
+      
+    },
+  },
+});
+
+export default theme;
